@@ -1,0 +1,185 @@
+msgid "Iniciar Sesion"
+msgstr "Log In"
+
+msgid "Añadir Vacuna"
+msgstr "Add Vaccine"
+
+msgid "Volver"
+msgstr "Go Back"
+
+msgid "Registrarme"
+msgstr "Register"
+
+msgid "Desconectarme"
+msgstr "Sign Out"
+
+msgid "Bienvenido"
+msgstr "Welcome"
+
+msgid "Nombre de Usuario"
+msgstr "Username"
+
+msgid "Contraseña"
+msgstr "Password"
+
+msgid "Adopciones"
+msgstr "Adoptions"
+
+msgid "Veterinarias"
+msgstr "Veterinary"
+
+msgid "Inicio"
+msgstr "Start"
+
+msgid "Necesitamos un hogar"
+msgstr "We need a home"
+
+msgid "Si desea encontrar un hogar para un animalito puede hacerlo"
+msgstr "If you wish to find a home for an animal you can do this"
+
+msgid " aquí<--"
+msgstr " here<--"
+
+msgid "No hay adopciones disponibles"
+msgstr "There are no adoptions available"
+
+msgid "Página"
+msgstr "Page"
+
+msgid "Mostrando"
+msgstr "Showing"
+
+msgid "resultados de"
+msgstr "results from"
+
+msgid "en total"
+msgstr "in total"
+
+msgid "Buscar Veterinarias"
+msgstr "Search Veterinary"
+
+msgid "Nombre"
+msgstr "Name"
+
+msgid "Provincia"
+msgstr "Province"
+
+msgid "Elija una opción"
+msgstr "Choose an option"
+
+msgid "Buscar"
+msgstr "Search"
+
+msgid "Agregar Nueva"
+msgstr "Add New"
+
+msgid "Cambiar Imagen"
+msgstr "Change Image"
+
+msgid "Guardar"
+msgstr "Save"
+
+msgid "Cancelar"
+msgstr "Cancel"
+
+msgid "Añadir Mascotas"
+msgstr "Add Pet"
+
+msgid "Añadir Mascota"
+msgstr "Add Pet"
+
+msgid "Eliminar Mascotas"
+msgstr "Delete Pet"
+
+msgid "Añadir Información de Veterinarias"
+msgstr "Add Veterinary Information"
+
+msgid "Aprobar Adopciones"
+msgstr "Aprove Adoption"
+
+msgid "Editar Perfil"
+msgstr "Edit Profile"
+
+msgid "Edad"
+msgstr "Age"
+
+msgid "Ninguna mascota agregada"
+msgstr "No pets added"
+
+msgid "Editar"
+msgstr "Edit"
+
+msgid "Volver"
+msgstr "Go back"
+
+msgid "Añadir Imagen"
+msgstr "Add Image"
+
+msgid "Agregar Consulta Veterinaria"
+msgstr "Add Vet Consulting"
+
+msgid "Agregar Desparasitación"
+msgstr "Add Anti parasite dose"
+
+msgid "Tipo"
+msgstr "Type"
+
+msgid "Fecha"
+msgstr "Date"
+
+msgid "Ninguna Vacuna Agregada"
+msgstr "No Added Vaccines"
+
+msgid "Desparasitaciones"
+msgstr "Anti parasite dose"
+
+msgid "Añadir Vacunación"
+msgstr "Add vaccine to pet"
+
+msgid "Agregar"
+msgstr "Add"
+
+msgid "Peso"
+msgstr "Weight"
+
+msgid "Años"
+msgstr "Years"
+
+msgid "Longitud"
+msgstr "Length"
+
+msgid "Vacuna"
+msgstr "Vaccine"
+
+msgid "Categoría"
+msgstr "Category"
+
+msgid "Crear"
+msgstr "Create"
+
+msgid "Vacunas"
+msgstr "Vaccines"
+
+msgid "Mascotas"
+msgstr "Pets"
+
+msgid "Añadir Desparasitacion"
+msgstr "Add anti parasite dose"
+
+msgid "Desparasitante"
+msgstr "Anti parasite dose"
+
+msgid "Añadir"
+msgstr "Add"
+
+msgid "Añadir Usuario"
+msgstr "Add User"
+
+msgid "Correo Electrónico"
+msgstr "Email"
+
+msgid "Crear Cuenta"
+msgstr "Create Account"
+
+msgid ""
+msgstr ""
