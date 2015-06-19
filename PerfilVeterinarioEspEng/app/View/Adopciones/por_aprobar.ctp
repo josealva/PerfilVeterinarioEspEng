@@ -23,9 +23,9 @@
                     }
                 echo '<ul class="col-md-5">';
                 echo '<li>'._('Hola').', </li>';
-                echo '<li>'_(Me llamo) .$ad['Adopcione']['nombre_mascota'].'</li>';
-                echo '<li>'_('tengo').$ad['Adopcione']['edad']._('años')</li>';
-                echo '<li>'_('Soy').$ad['Adopcione']['tipo_mascota'].' '.$ad['Adopcione']['raza'].'</li>';
+                echo '<li>'._('Me llamo ').$ad['Adopcione']['nombre_mascota'].'</li>';
+                echo '<li>'._('tengo ').$ad['Adopcione']['edad'].'</li>';
+                echo '<li>'._('Soy').$ad['Adopcione']['tipo_mascota'].' '.$ad['Adopcione']['raza'].'</li>';
                
                 if($ad['Adopcione']['desparacitado']==0){
                     echo '<li>'._('Me encuentro desparacitado').'</li>';
@@ -35,10 +35,10 @@
                 if($ad['Adopcione']['vacunas_dia']==0){
                     echo '<li>'._('Tengo mis vacunas al dia').'</li>';
                 }else{
-                    echo '<li>'_('Me falta algunas vacunas').'</li>';
+                    echo '<li>'._('Me falta algunas vacunas').'</li>';
                 }
-                echo '<li>'_('Si puedes darme un hogar pregunta aquí->').$ad['Adopcione']['contacto'].'</li>';
-                echo '<li>'_('Información extra: ').$ad['Adopcione']['nota'].'</li>';
+                echo '<li>'._('Si puedes darme un hogar pregunta aquí->').$ad['Adopcione']['contacto'].'</li>';
+                echo '<li>'._('Información extra: ').$ad['Adopcione']['nota'].'</li>';
                 echo '</ul>';
                 echo $this->Html->link(_('EDITAR/APROBAR'), '/adopciones/edit/' . $ad['Adopcione']['id'], array('class'=>"btn btn-primary"));
                 echo '</div>';

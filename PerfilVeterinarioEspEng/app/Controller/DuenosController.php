@@ -23,7 +23,7 @@ public function index(){
 
 public function listaUsuarios(){
     $usuario = $this->Dueno->findByUsername($this->Session->read('usuario'));
-        if($usuario['Dueno']['admin']==0){
+        if($usuario['Dueno']['tipo_usuario']==0){
             $this->redirect(array('controller'=>'Dueno', 'action'=>'index'));
         }
     $duennosList = $this->Dueno->find('all');
