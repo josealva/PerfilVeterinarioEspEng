@@ -80,7 +80,9 @@
                     <div id="clear"></div>
                 </li>
                 <li class="list-group-item text-right">
-                    <span class="pull-left"><a><?php echo __('Agregar Consulta Veterinaria') ?></a></span>
+                    <span class="pull-left"><?php
+						echo $this->Html->link(__('AñadirConsulta'), '/registroconsultas/add/' . $mascota['Mascota']['id']);
+                        ?>
                     <div id="clear"></div>
                 </li>
                 <li class="list-group-item text-right">
