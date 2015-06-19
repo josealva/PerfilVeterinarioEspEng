@@ -146,6 +146,22 @@
         }
         ?>
     </div>
+       <div id='mascotas' class="pull-left col-md-8">
+            <p class="title1"><?php echo __('Consultas') ?></p>
+            <?php
+            $consulta = NULL;
+            if ($consulta!=NULL) {
+               
+                
+              
+            } else {   
+                echo '<h5>';
+                echo __('No consultation added');    
+                echo '</h5>';
+                
+            }
+            ?>
+        </div>
     <br><br>
     <div id='clear'></div>
 </div>
