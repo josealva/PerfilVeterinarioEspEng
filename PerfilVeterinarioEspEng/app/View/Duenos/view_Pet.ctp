@@ -82,7 +82,7 @@
                 <li class="list-group-item text-right">
                     <span class="pull-left"><?php
 						echo $this->Html->link(__('AñadirConsulta'), '/registroconsultas/add/' . $mascota['Mascota']['id']);
-                        ?>
+                        ?></span>
                     <div id="clear"></div>
                 </li>
                 <li class="list-group-item text-right">
