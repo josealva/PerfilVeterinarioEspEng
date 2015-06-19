@@ -41,7 +41,7 @@
 
             <div id="clear"></div>   
             <div id="clear"></div>   
-            <button type="submit" class="btn btn-primary pull-right"><?php echo __('Agregar') ?></button>
+            <button type="submit" class="btn btn-primary pull-left"><?php echo __('Agregar') ?></button>
         </fieldset>
         <?php echo $this->Form->end(); ?>
     <!--<php echo $this->Form->end(__('Añadir')); ?>-->
