@@ -6,7 +6,7 @@
         <fieldset>
             <legend><?php echo __('Añadir consultas'); ?></legend>
             <div class="form-group">
-                    <?php echo $this->Form->input('Registroconsulta.Descripcion', array('label'=>'Descripcion(kg): ', 'type'=>'text'));?>
+                    <?php echo $this->Form->input('Registroconsulta.Descripcion', array('label'=>'Descripcion: ', 'type'=>'text'));?>
             </div>
        
             <div id="clear"></div>
@@ -25,7 +25,7 @@
 
             <div id="clear"></div>      
             <div class="form-group">
-                     <?php  echo $this->Form->input('Registroconsulta.longitud', array('label'=>'Longitud(Años): ', 'type'=>'text'));?>
+                     <?php  echo $this->Form->input('Registroconsulta.longitud', array('label'=>'Longitud(CM): ', 'type'=>'text'));?>
 
             </div>
 
