@@ -30,7 +30,7 @@
                     echo $val['Dueno']['correo'];
                     echo '</td>';
                     echo '<td>';
-                    if($val['Dueno']['admin']==0){//cambiar por tipo_usuario
+                    if($val['Dueno']['tipo_usuario']==0){//cambiar por tipo_usuario
                         $tipo = _('Administrador');
                     }else{
                         $tipo = 'Normal';

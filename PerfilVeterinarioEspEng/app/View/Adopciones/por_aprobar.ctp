@@ -23,8 +23,8 @@
                     }
                 echo '<ul class="col-md-5">';
                 echo '<li>'._('Hola').', </li>';
-                echo '<li>'_(Me llamo) .$ad['Adopcione']['nombre_mascota'].'</li>';
-                echo '<li>'_('tengo').$ad['Adopcione']['edad']._('años')</li>';
+                echo '<li>'_('Me llamo').$ad['Adopcione']['nombre_mascota'].'</li>';
+                echo '<li>'_('tengo').$ad['Adopcione']['edad']._('años')'</li>';
                 echo '<li>'_('Soy').$ad['Adopcione']['tipo_mascota'].' '.$ad['Adopcione']['raza'].'</li>';
                
                 if($ad['Adopcione']['desparacitado']==0){
