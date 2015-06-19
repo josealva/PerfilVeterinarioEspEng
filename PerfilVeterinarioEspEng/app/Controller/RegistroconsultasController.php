@@ -19,6 +19,7 @@ class RegistroconsultasController extends AppController {
         if ($this->request->is('post')) {
             $this->Registroconsulta->create();
             if ($this->Registroconsulta->save($this->request->data)) {
+                $this->set('idmascota', $id);
                 $this->Session->setFlash(__('Se ha añadido una Consulta'));
                 return $this->redirect(array('controller'=>'duenos', 'action' => 'profile'));
             }
@@ -29,3 +30,4 @@ class RegistroconsultasController extends AppController {
     }
 	
 }
+
