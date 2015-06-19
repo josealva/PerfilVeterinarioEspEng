@@ -57,7 +57,15 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 			<?php echo $this->fetch('content'); ?>
 		</div>
 		<div id="footer">
-			Pets & Friends v1.0 - 2015
+                     <?php
+            echo $this->Html->image('costa-rica-flag.gif', array('alt' => 'CakePHP', 'width'=>'50px'));
+            echo $this->Html->link(' Español', array('controller' => 'app', 'action' => 'setLanguage/ '. 1));
+            echo "<p style='display: inline-block; color: white;'>&nbsp - &nbsp</p>";
+            echo $this->Html->image('us_flag.gif', array('alt' => 'CakePHP', 'width'=>'50px'));
+            echo $this->Html->link(' English', array('controller' => 'app', 'action' => 'setLanguage/ '. 2));
+            echo "<p style='display: inline-block; color: white;'>&nbsp - Pets & Friends v1.0 - 2015</p>";
+            ?>
+			
 			
 		</div>
 	</div>
