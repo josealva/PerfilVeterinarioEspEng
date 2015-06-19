@@ -8,10 +8,10 @@
     );
 ?>
 <div id="main">
-    <h3 class="pull-left">Necesitamos un hogar</h3>
-    <h4 class="pull-right">Si desea encontrar un hogar para un animalito puede hacerlo 
+    <h3 class="pull-left"><?php echo __('Necesitamos un hogar') ?></h3>
+    <h4 class="pull-right"><?php echo __('Si desea encontrar un hogar para un animalito puede hacerlo') ?> 
         <?php 
-        echo $this->Html->link(' aquí<--',array('controller'=>'adopciones', 'action'=>'add'));
+        echo $this->Html->link(__(' aquí<--'),array('controller'=>'adopciones', 'action'=>'add'));
         ?>
     </h4>
     <br>
@@ -55,14 +55,14 @@
             }
         }else{
             echo '<br>';
-            echo 'No hay adopciones disponibles';
+            echo __('No hay adopciones disponibles');
             echo '<br>';
             echo '<br>';
 
         }
          echo $this->Paginator->counter(
                     array(
-                        'format'=> _('Pagina {:page} of {:pages}, Mostrando {:current} resultados de {:count} en total')
+                        'format'=> _(__('Página'). ' {:page} of {:pages}, ' .__('Mostrando'). ' {:current} '. __('resultados de'). ' {:count} '. __('en total'))
                     ));
             echo '</p>';
             ?>
