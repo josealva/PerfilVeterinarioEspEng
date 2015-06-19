@@ -18,13 +18,32 @@ class DuenosController extends AppController {
 }
 
 public function index(){
-//    if($this->Session->read('usuario')){
-//       $usuario = $this->Dueno->findByUsername($this->Session->read('usuario'));
-//       $this->set('nombre', $usuario['nombre']);
-//    }
-    
-    
 }
+
+
+public function listaUsuarios(){
+    $usuario = $this->Dueno->findByUsername($this->Session->read('usuario'));
+        if($usuario['Dueno']['admin']==0){
+            $this->redirect(array('controller'=>'Dueno', 'action'=>'index'));
+        }
+    $duennosList = $this->Dueno->find('all');
+    $this->set('listaDuenos', $duennosList);
+}
+
+public function cambiar($val){
+    $this->autoRender = false;
+    $usuario = $this->Dueno->findById($val);
+    if($usuario){
+        $this->Dueno->id = $val;
+        if($usuario['Dueno']['admin']==0){//cambiar a tipo_usuario
+            $this->Dueno->saveField('admin', 1);
+        }else{
+            $this->Dueno->saveField('admin', 0);
+        }
+    }
+    $this->redirect(array('controller'=>'duenos', 'action'=>'listaUsuarios'));
+}
+
 public function cargarImagen(){
     $this->autoRender = false;
     if ($this->request->is('post')) {

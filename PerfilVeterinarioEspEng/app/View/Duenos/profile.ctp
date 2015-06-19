@@ -66,7 +66,15 @@
                     <div id="clear"></div>
                 </li>
                 <li class="list-group-item text-muted" contenteditable="false">
-                    <span class="pull-left"><a><?php echo __('Editar Perfil') ?></a></span>
+                    <span class="pull-left">
+                        <?php
+                        echo $this->Html->link(
+                                _('Editar perfil'), array(
+                            'controller' => 'duenos',
+                            'action' => 'edit/'.$user['Dueno']['id'])
+                        );
+                        ?>
+                    </span>
                     <div id="clear"></div>
                 </li>
                 <li class="list-group-item text-right">
@@ -96,6 +104,17 @@
                                 array(
                             'controller' => 'adopciones',
                             'action' => 'porAprobar')
+                        );
+                        ?></span>
+                    <div id="clear"></div>
+                </li>
+				<li class="list-group-item text-right">
+                    <span class="pull-left"><?php
+                        echo $this->Html->link(
+                                _('Administrar Usuarios'), 
+                                array(
+                            'controller' => 'duenos',
+                            'action' => 'listaUsuarios')
                         );
                         ?></span>
                     <div id="clear"></div>

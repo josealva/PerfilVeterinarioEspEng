@@ -181,5 +181,89 @@ msgstr "Email"
 msgid "Crear Cuenta"
 msgstr "Create Account"
 
-msgid ""
-msgstr ""
+msgid "Adopciones por aprobar"
+msgstr "Unapproved Adoptions"
+
+msgid "Hola"
+msgstr "Hello"
+
+msgid "Me llamo"
+msgstr "I am"
+
+msgid "Tengo"
+msgstr "I'm"
+
+msgid "años"
+msgstr "years old"
+
+msgid "Soy"
+msgstr "I'm"
+
+msgid "Me encuentro desparacitado"
+msgstr "I'm deworming"
+
+msgid "No estoy desparacitado"
+msgstr "I'm not deworming"
+
+msgid "Tengo mis vacunas al dia"
+msgstr "I have all my vaccines"
+
+msgid "Me falta algunas vacunas"
+msgstr "I miss some vaccines"
+
+msgid "Si puedes darme un hogar pregunta aquí->"
+msgstr "If you have home for me, please ask here 
+
+msgid "Información extra: "
+msgstr "Addicional information: "
+
+msgid "EDITAR/APROBAR"
+msgstr "EDIR/APROVE"
+
+msgid "Añadir Adopción"
+msgstr "Add Adoption"
+
+msgid "Tipo de animal"
+msgstr "Kind of Animal"
+
+msgid "Raza"
+msgstr "Race"
+
+msgid "Esta desparacitado? "
+msgstr "deworming?"
+
+msgid "Si"
+msgstr "Yes"
+
+msgid "Tiene vacunas al dia? "
+msgstr "All vaccines? "
+
+msgid "Foto"
+msgstr "Picture"
+
+msgid "Contacto"
+msgstr "Contact"
+
+msgid "Nota"
+msgstr "Notes"
+
+msgid "Agregar Adopción"
+msgstr "Add Adoption"
+
+msgid "Editar Adopción"
+msgstr "Edit Adoption"
+
+msgid "Aprobar"
+msgstr "Aprove"
+
+msgid "Editar cuenta"
+msgstr "Edit account"
+
+msgid "Cambiar a..."
+msgstr "Change to..."
+
+msgid "Administrador"
+msgstr "Administrator"
+
+msgid "Administrar Usuarios"
+msgstr "Manage users"

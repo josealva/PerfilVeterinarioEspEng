@@ -330,3 +330,8 @@ h3, h4, h1,h2,h6, h5{
 .vetText{
     color: black;
 }
+
+#DuenoEditForm fieldset{
+    max-width: 600px;
+    margin: 0 auto;
+}

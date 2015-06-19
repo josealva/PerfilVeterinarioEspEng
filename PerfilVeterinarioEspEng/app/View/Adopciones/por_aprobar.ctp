@@ -8,12 +8,11 @@
     );
 ?>
 <div id="main">
-    <p class="title1">Adopciones por aprobar</p>
+    <h3 class="pull-left"><?php echo _('Adopciones por aprobar');?></h3>
     <br>
     <div id="panel-adopciones">
         <?php
         if($adops){
-           // var_dump($adops);
             foreach ($adops as $ad){
                 echo '<div class="info-adopcion col-md-12">';
                 //echo $user['Adopcione']['imagen'];
@@ -23,25 +22,25 @@
                         echo $this->Html->image('adopciones/'.$ad['Adopcione']['imagen'], array('alt' => '', 'width' => '200px', 'height' => '200px', 'class'=>'pull-left col-md-3'));
                     }
                 echo '<ul class="col-md-5">';
-                echo '<li>Hola, </li>';
-                echo '<li>Me llamo '.$ad['Adopcione']['nombre_mascota'].'</li>';
-                echo '<li>tengo '.$ad['Adopcione']['edad'].' años</li>';
-                echo '<li>Soy '.$ad['Adopcione']['tipo_mascota'].' '.$ad['Adopcione']['raza'].'</li>';
+                echo '<li>'._('Hola').', </li>';
+                echo '<li>'_(Me llamo) .$ad['Adopcione']['nombre_mascota'].'</li>';
+                echo '<li>'_('tengo').$ad['Adopcione']['edad']._('años')</li>';
+                echo '<li>'_('Soy').$ad['Adopcione']['tipo_mascota'].' '.$ad['Adopcione']['raza'].'</li>';
                
                 if($ad['Adopcione']['desparacitado']==0){
-                    echo '<li>Me encuentro desparacitado</li>';
+                    echo '<li>'._('Me encuentro desparacitado').'</li>';
                 }else{
-                    echo '<li>No estoy desparacitado</li>';
+                    echo '<li>'._('No estoy desparacitado').'</li>';
                 }
                 if($ad['Adopcione']['vacunas_dia']==0){
-                    echo '<li>Tengo mis vacunas al dia</li>';
+                    echo '<li>'._('Tengo mis vacunas al dia').'</li>';
                 }else{
-                    echo '<li>Me falta algunas vacunas</li>';
+                    echo '<li>'_('Me falta algunas vacunas').'</li>';
                 }
-                echo '<li>Si puedes darme un hogar pregunta aquí->'.$ad['Adopcione']['contacto'].'</li>';
-                echo '<li>Información extra: '.$ad['Adopcione']['nota'].'</li>';
+                echo '<li>'_('Si puedes darme un hogar pregunta aquí->').$ad['Adopcione']['contacto'].'</li>';
+                echo '<li>'_('Información extra: ').$ad['Adopcione']['nota'].'</li>';
                 echo '</ul>';
-                echo $this->Html->link('EDITAR/APROBAR', '/adopciones/edit/' . $ad['Adopcione']['id'], array('class'=>"btn btn-primary"));
+                echo $this->Html->link(_('EDITAR/APROBAR'), '/adopciones/edit/' . $ad['Adopcione']['id'], array('class'=>"btn btn-primary"));
                 echo '</div>';
                 echo '<br>';
             }
