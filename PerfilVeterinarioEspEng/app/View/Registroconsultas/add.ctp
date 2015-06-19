@@ -6,7 +6,7 @@
         <fieldset>
             <legend><?php echo __('Añadir consultas'); ?></legend>
             <div class="form-group">
-                    <?php echo $this->Form->input('Registroconsulta.Descripcion', array('label'=>'Descripcion: ', 'type'=>'text'));?>
+                     <?php echo $this->Form->input('Registroconsulta.descripcion', array('label'=>__('Descripcion') .': '));?>
             </div>
        
             <div id="clear"></div>
