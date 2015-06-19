@@ -7,18 +7,8 @@ class Registroconsulta extends AppModel {
 	public $useTable = 'registroconsultas';
 	
     public $validate = array(
-		'idmascota' => array(
-            'required' => array(
-                'rule' => array('notEmpty'),
-                'message' => 'Error con el identificador de la mascota'
-            )
-        ),
-        'fecha' => array(
-            'required' => array(
-                'rule' => array('notEmpty'),
-                'message' => 'La fecha es requerida'
-            )
-        ),
+	
+       
         'descripcion' => array(
             'required' => array(
                 'rule' => array('notEmpty'),
@@ -37,18 +27,7 @@ class Registroconsulta extends AppModel {
                 'message' => 'La edad es requerida'
             )
         ),
-        	'longitud' => array(
-            'required' => array(
-                'rule' => array('notEmpty'),
-                'message' => 'La longitud es requerida'
-            )
-        ),
-        	'costo' => array(
-            'required' => array(
-                'rule' => array('notEmpty'),
-                'message' => 'El costo es requerida'
-            )
-        ),
+   
     );
     
     public function beforeSave($options = array()) {
